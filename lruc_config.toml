@@ -1,0 +1,10 @@
+base_url = "http://dummy.restapiexample.com"
+
+[[api_info]]
+name = "[GET] dummy API"
+method = "GET"
+desc = "dummy API"
+path = "/api/v1/employee/1"
+[[api_info.headers]]
+X-ACCESS-TOKEN = "x-access-TOKEN"
+CUSTOM-KEY = "custom-key"
